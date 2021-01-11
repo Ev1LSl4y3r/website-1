@@ -6,6 +6,7 @@ h1 {
 	margin-left: 400px;
 	font-size: 400%;
 	font-family: Garamond, serif;
+	text-shadow: 1px 1px 4px #000000;
 }
 
 p {
@@ -39,3 +40,32 @@ p {
   background-color: red;
   color: white;
 }
+.frame {
+	 height:500;
+	 width:500;
+	 float: right;
+	 border-radius: 1% / 1%;
+	 box-shadow: 1px 1px 100px #000000;
+
+	 
+}
+.button {
+	background-color: #FF0000; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; 
+	transition-duration: 0.4s;
+	margin-left: 400px;
+	float: left;
+}
+.button2:hover {
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+	
